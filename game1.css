@@ -1,0 +1,107 @@
+body
+{
+	background: #151D21;
+	color: white;
+}
+h3{
+	color: black
+}
+#quiz{
+	color:#4add4f;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+	#ID_DIV_1 , #ID_DIV_2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#title{
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+#player_question, #player_answer{
+    font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#player1_name, #player2_name{
+    font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#player1_score, #player2_score{
+    font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #4add4f;
+}
+#question{
+    color: #4add4f;
+    font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+#ans{
+    color: #9a1ea3;
+    font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 50;
+}
+h4{
+    font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 50;
+}
+#send_btn{
+	background-color: #4add4f;
+	width: 300px;
+	height: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	border-width: 0px;
+	border-radius: 10px;
+}
+#send_btn:hover{
+	background-color: #1d7720;
+	width: 300px;
+	height: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	transition: 0.6s ease;
+}
